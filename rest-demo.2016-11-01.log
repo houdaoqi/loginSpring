@@ -1,0 +1,3 @@
+22:44:39.780 [main] TRACE loginSpring.common.LoggingAspect - Going to find up user information. 
+22:44:40.512 [main] TRACE loginSpring.common.LoggingAspect - The select function ended. 
+22:44:40.513 [main] TRACE loginSpring.common.LoggingAspect - Returning: User [id=1, name=hou] 

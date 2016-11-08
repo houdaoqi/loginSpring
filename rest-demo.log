@@ -1,0 +1,15 @@
+16:26:33.199 [http-nio-8081-exec-4] TRACE l.common.LoggingInterceptor -  Pre handle:   
+16:26:33.673 [http-nio-8081-exec-4] TRACE l.common.LoggingInterceptor -  Post handle  
+16:26:33.673 [http-nio-8081-exec-4] TRACE l.common.LoggingInterceptor -  After Completion  
+16:52:18.104 [http-nio-8081-exec-6] TRACE l.common.LoggingInterceptor -  The start time of the request is: 1478559138104 
+16:52:18.527 [http-nio-8081-exec-6] TRACE l.common.LoggingInterceptor -  The request is processing...  
+16:52:18.527 [http-nio-8081-exec-6] TRACE l.common.LoggingInterceptor -  The processing time is: 0.423 
+17:04:41.041 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+17:04:41.420 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+17:04:41.420 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+17:05:28.727 [http-nio-8081-exec-9] TRACE l.common.LoggingInterceptor -  The start time of the request is: 1478559928727 
+17:05:28.873 [http-nio-8081-exec-9] TRACE l.common.LoggingInterceptor -  The request is processing...  
+17:05:28.873 [http-nio-8081-exec-9] TRACE l.common.LoggingInterceptor -  The processing time is: 0.146s 
+17:06:17.187 [http-nio-8081-exec-10] TRACE l.common.LoggingInterceptor -  The start time of the request is: 1478559977187 
+17:06:17.209 [http-nio-8081-exec-10] TRACE l.common.LoggingInterceptor -  The request is processing...  
+17:06:17.209 [http-nio-8081-exec-10] TRACE l.common.LoggingInterceptor -  The processing time is: 0.022s 
