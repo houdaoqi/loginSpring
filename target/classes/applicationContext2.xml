@@ -28,7 +28,7 @@
     <!-- Definition for aspect -->
     <bean id="loggingAspect" class="loginSpring.common.LoggingAspect"/>
     <!--<bean name="userAspect" class="loginSpring.aspect.UserAspect" />-->
-
+    <!--Definition of sqlite-->
     <!--<bean id = "dataSource" class = "loginSpring.sqlite.MyDriverManagerDataSource"/>-->
     <bean id="dataSource"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
@@ -42,12 +42,11 @@
         <!--</property>-->
     <!--</bean>-->
 
-
-    <!-- Definition of user beans -->
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
         <property name="dataSource" ref="dataSource"></property>
     </bean>
 
+    <!-- Definition of user beans -->
     <bean id="userDaoSqlite" class="loginSpring.dao.impl.UserDaoSqliteImpl">
         <property name="jdbcTemplate" ref="jdbcTemplate">
         </property>
@@ -55,6 +54,17 @@
 
     <bean id="userService" class="loginSpring.service.impl.UserServiceImpl">
         <property name="userDao" ref="userDaoSqlite">
+        </property>
+    </bean>
+
+    <!-- Definition of product beans -->
+    <bean id="productDaoSqlite" class="loginSpring.dao.impl.ProductDaoSqliteImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate">
+        </property>
+    </bean>
+
+    <bean id="productService" class="loginSpring.service.impl.ProductServiceImpl">
+        <property name="productDao" ref="productDaoSqlite">
         </property>
     </bean>
 </beans>
