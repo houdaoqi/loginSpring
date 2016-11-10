@@ -26,7 +26,7 @@ public class UserDaoSimpleImpl implements IUserDao {
 
     public int update(User user) {
         if(map.containsKey(user.getUserName())){
-            insert(user);
+            map.put(user.getUserName(), user.getUserPassword());
             return 1;
         }else return 0;
     }

@@ -1,47 +1,55 @@
 package loginSpring.po;
 
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 /**
  * Created by lenovo on 11/8/2016.
  */
-public class Cart {
+public class Cart implements Serializable {
 
-    private User user;
-    //the list of item names
-    private List<String> itemList;
+    private String userName;
+    //the list of item ID
+//    private List<Long> itemList;
     //the key is the item name; the value is quantity
-    private Map<Product, Integer> items;
+    private Map<String, OrderedItem> items;
 
-    public List<String> getItemList() {
-        return itemList;
+//    public List<Long> getItemList() {
+//        return itemList;
+//    }
+
+//    public void setItemList(List<Long> itemList) {
+//        this.itemList = itemList;
+//    }
+
+    public Cart(String userName) {
+        this.userName = userName;
+//        this.itemList = new ArrayList<>();
+        this.items = new HashMap<>();
     }
 
-    public void setItemList(List<String> itemList) {
-        this.itemList = itemList;
-    }
-
-    public Cart(User user, List<String> itemList, Map<Product, Integer> items) {
-        this.user = user;
-
-        this.itemList = itemList;
+    public Cart(String userName, Map<String, OrderedItem> items) {
+        this.userName = userName;
+//        this.itemList = itemList;
         this.items = items;
     }
 
-    public User getUser() {
-        return user;
+    public String getUser() {
+        return userName;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setUser(String userName) {
+        this.userName = userName;
     }
 
-    public Map<Product, Integer> getItems() {
+    public Map<String, OrderedItem> getItems() {
         return items;
     }
 
-    public void setItems(Map<Product, Integer> items) {
+    public void setItems(Map<String, OrderedItem> items) {
         this.items = items;
     }
 
@@ -49,9 +57,9 @@ public class Cart {
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + ((user == null) ? 0 : user.hashCode());
+        result = prime * result + ((userName == null) ? 0 : userName.hashCode());
         result = prime * result + ((items == null) ? 0 : items.hashCode());
-
+//        result = prime * result + ((itemList == null) ? 0 : itemList.hashCode());
         result = prime * result;
         return result;
     }
@@ -65,10 +73,10 @@ public class Cart {
         if (getClass() != obj.getClass())
             return false;
         Cart other = (Cart) obj;
-        if (user == null) {
-            if (other.user != null)
+        if (userName == null) {
+            if (other.userName != null)
                 return false;
-        } else if (!user.equals(other.user))
+        } else if (!userName.equals(other.userName))
             return false;
         if (items == null) {
             if (other.items != null)
@@ -81,11 +89,13 @@ public class Cart {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append(user.toString());
-        for(Product product : items.keySet()){
-            stringBuilder.append(product.toString());
-            stringBuilder.append(" Quantity: " + items.get(product));
+        stringBuilder.append(userName.toString());
+        for(String productName : items.keySet()){
+            OrderedItem orderedItem = items.get(productName);
+            stringBuilder.append(orderedItem.getProduct());
+            stringBuilder.append(" Quantity: " + orderedItem.getQuantity());
         }
         return stringBuilder.toString();
     }
 }
+

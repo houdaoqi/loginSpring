@@ -67,4 +67,13 @@
         <property name="productDao" ref="productDaoSqlite">
         </property>
     </bean>
+
+    <!-- Definition of cart beans -->
+    <bean id="cartDaoSimple" class="loginSpring.dao.impl.CartDaoSimpleImpl">
+    </bean>
+
+    <bean id="cartService" class="loginSpring.service.impl.CartServiceImpl">
+        <property name="cartDao" ref="cartDaoSimple">
+        </property>
+    </bean>
 </beans>
