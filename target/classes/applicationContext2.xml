@@ -76,4 +76,13 @@
         <property name="cartDao" ref="cartDaoSimple">
         </property>
     </bean>
+
+    <!-- Definition of order beans -->
+    <bean id="orderDaoSqlite" class="loginSpring.dao.impl.OrderDaoSqliteImpl">
+    </bean>
+
+    <bean id="orderService" class="loginSpring.service.impl.OrderServiceImpl">
+        <property name="orderDao" ref="orderDaoSqlite">
+        </property>
+    </bean>
 </beans>

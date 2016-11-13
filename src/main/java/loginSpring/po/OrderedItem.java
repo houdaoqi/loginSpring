@@ -6,10 +6,19 @@ import java.io.Serializable;
  * Created by lenovo on 11/9/2016.
  */
 public class OrderedItem implements Serializable {
+    private long id;
     private Product product;
     private int quantity;
 
     public OrderedItem() {
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public OrderedItem(Product product) {
