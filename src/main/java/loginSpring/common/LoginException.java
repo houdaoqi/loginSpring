@@ -29,6 +29,11 @@ public class LoginException extends RuntimeException {
         this.errorCode=errorCode;
     }
 
+    public LoginException(String message, ResultCode errorCode){
+        super(message);
+        this.errorCode=errorCode;
+    }
+
     public ResultCode getErrorCode(){
         return errorCode;
     }

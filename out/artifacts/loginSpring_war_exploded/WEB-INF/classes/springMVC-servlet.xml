@@ -23,7 +23,7 @@
     <!--<mvc:interceptors>-->
         <!--<bean class="loginSpring.common.LoggingInterceptor" />-->
     <!--</mvc:interceptors>-->
-
+    <mvc:default-servlet-handler />
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/user/*"/>

@@ -23,7 +23,7 @@ public class ProductController {
     @Autowired
     IProductService productService;
 
-    //Retrieve single product
+    //Retrieve single product by product name
 
     @RequestMapping(value = "/product/{name}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Product> getProduct(@PathVariable("name") String name) {
@@ -35,6 +35,19 @@ public class ProductController {
         }
         return new ResponseEntity<Product>(product, HttpStatus.OK);
     }
+
+    //Retrieve single product by product ID
+
+//    @RequestMapping(value = "/product/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+//    public ResponseEntity<Product> getProduct(@PathVariable("id") long id) {
+//        System.out.println("Fetching product with name " + name);
+//        Product product = productService.findProductByName(name);
+//        if (product == null) {
+//            System.out.println("Product with name " + name + " not found");
+//            return new ResponseEntity<Product>(HttpStatus.NOT_FOUND);
+//        }
+//        return new ResponseEntity<Product>(product, HttpStatus.OK);
+//    }
 
     //Retrieve all products
 

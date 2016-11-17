@@ -11,6 +11,8 @@ public interface IProductService {
 
     Product findProductByName(String name);
 
+    Product findProductByID(long id);
+
     boolean isProductExist(String name);
 
     List<Product> getProducts();

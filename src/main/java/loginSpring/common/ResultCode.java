@@ -6,7 +6,8 @@ package loginSpring.common;
 public enum ResultCode {
     PASS("0000"),
     NO_USER("0001"),
-    INVALID_PASS("0002");
+    INVALID_PASS("0002"),
+    NOT_LOGIN_YET("0003");
 
     private String code;
 

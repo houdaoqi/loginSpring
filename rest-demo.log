@@ -1,18 +1,87 @@
-16:52:18.104 [http-nio-8081-exec-6] TRACE l.common.LoggingInterceptor -  The start time of the request is: 1478559138104 
-16:52:18.527 [http-nio-8081-exec-6] TRACE l.common.LoggingInterceptor -  The request is processing...  
-16:52:18.527 [http-nio-8081-exec-6] TRACE l.common.LoggingInterceptor -  The processing time is: 0.423 
-17:04:41.041 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
-17:04:41.420 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
-17:04:41.420 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
-17:05:28.727 [http-nio-8081-exec-9] TRACE l.common.LoggingInterceptor -  The start time of the request is: 1478559928727 
-17:05:28.873 [http-nio-8081-exec-9] TRACE l.common.LoggingInterceptor -  The request is processing...  
-17:05:28.873 [http-nio-8081-exec-9] TRACE l.common.LoggingInterceptor -  The processing time is: 0.146s 
-17:06:17.187 [http-nio-8081-exec-10] TRACE l.common.LoggingInterceptor -  The start time of the request is: 1478559977187 
-17:06:17.209 [http-nio-8081-exec-10] TRACE l.common.LoggingInterceptor -  The request is processing...  
-17:06:17.209 [http-nio-8081-exec-10] TRACE l.common.LoggingInterceptor -  The processing time is: 0.022s 
-22:46:28.075 [http-nio-8081-exec-7] TRACE l.common.LoggingInterceptor -  The start time of the request is: 1478580388075 
-22:46:30.005 [http-nio-8081-exec-7] TRACE l.common.LoggingInterceptor -  The request is processing...  
-22:46:30.006 [http-nio-8081-exec-7] TRACE l.common.LoggingInterceptor -  The processing time is: 1.931s 
-22:54:59.948 [http-nio-8081-exec-8] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
-22:54:59.964 [http-nio-8081-exec-8] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
-22:54:59.964 [http-nio-8081-exec-8] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+10:54:53.623 [http-nio-8081-exec-10] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+10:54:54.018 [http-nio-8081-exec-10] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+10:54:54.018 [http-nio-8081-exec-10] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+10:56:44.503 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+10:56:44.623 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+10:56:44.623 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+11:10:25.575 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+11:10:25.707 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+11:10:25.708 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+11:12:25.233 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+11:12:25.392 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+11:12:25.392 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+11:38:53.339 [http-nio-8081-exec-8] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+11:38:53.465 [http-nio-8081-exec-8] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+11:38:53.465 [http-nio-8081-exec-8] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+13:18:14.166 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+13:18:14.304 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+13:18:14.304 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+13:32:55.612 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+13:32:55.769 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+13:32:55.769 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+14:01:17.138 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+14:01:17.235 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+14:01:17.235 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+14:23:12.392 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+14:23:12.524 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+14:23:12.524 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+14:38:04.288 [http-nio-8081-exec-4] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+14:38:04.418 [http-nio-8081-exec-4] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+14:38:04.418 [http-nio-8081-exec-4] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+14:39:37.197 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+14:39:37.290 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+14:39:37.291 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+15:00:22.708 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+15:00:22.819 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+15:00:22.819 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+15:03:02.192 [http-nio-8081-exec-8] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+15:03:02.287 [http-nio-8081-exec-8] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+15:03:02.287 [http-nio-8081-exec-8] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+15:06:51.792 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+15:06:51.911 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+15:06:51.911 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+15:10:28.167 [http-nio-8081-exec-4] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+15:10:28.288 [http-nio-8081-exec-4] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+15:10:28.288 [http-nio-8081-exec-4] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+15:23:00.219 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+15:23:00.314 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+15:23:00.314 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+15:27:06.656 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+15:27:06.785 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+15:27:06.786 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+15:32:18.960 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+15:32:19.107 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+15:32:19.108 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+15:33:34.225 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+15:33:34.318 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+15:33:34.318 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+15:43:10.756 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+15:43:10.846 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+15:43:10.846 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+15:55:35.968 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+15:55:36.071 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+15:55:36.071 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+15:56:57.248 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+15:56:57.392 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+15:56:57.392 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+16:14:05.014 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+16:14:05.106 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+16:14:05.106 [http-nio-8081-exec-7] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+16:15:52.295 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+16:15:52.390 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+16:15:52.391 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+16:17:59.497 [http-nio-8081-exec-8] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+16:17:59.615 [http-nio-8081-exec-8] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+16:17:59.616 [http-nio-8081-exec-8] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+16:37:47.745 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+16:37:47.842 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+16:37:47.843 [http-nio-8081-exec-6] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+16:40:33.009 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+16:40:33.105 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+16:40:33.106 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+16:47:04.824 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+16:47:04.935 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+16:47:04.935 [http-nio-8081-exec-9] TRACE loginSpring.common.LoggingAspect - Returning: PASS 
+17:00:12.356 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - Going to verify user information. 
+17:00:12.476 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - The verification function ended. 
+17:00:12.477 [http-nio-8081-exec-5] TRACE loginSpring.common.LoggingAspect - Returning: PASS 

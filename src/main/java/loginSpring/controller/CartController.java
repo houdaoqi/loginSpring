@@ -1,17 +1,18 @@
 package loginSpring.controller;
 
+import loginSpring.common.LoginException;
+import loginSpring.common.ResultCode;
 import loginSpring.po.Cart;
 import loginSpring.po.OrderedItem;
-import loginSpring.po.Product;
 import loginSpring.service.ICartService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import javax.servlet.*;
@@ -25,13 +26,24 @@ import java.util.Map;
  * Created by lenovo on 11/9/2016.
  */
 @RestController
-public class CartContoller {
+public class CartController {
 
     @Autowired
     private ICartService cartService;
+
+    private final Logger logger = LoggerFactory.getLogger(CartController.class);
+
     //show items in cart
     @RequestMapping(value = "/cart/{userName}/all", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Map<String, OrderedItem>> getItems(@PathVariable("userName") String userName) {
+    public ResponseEntity<Map<String, OrderedItem>> getItems(@PathVariable("userName") String userName, HttpServletRequest request) {
+        HttpSession session = request.getSession();
+//Get the logged in user name
+//        String loggedUserName = (String)session.getAttribute("userName");
+//        if(loggedUserName == null || !loggedUserName.equals(userName)){
+//            logger.error(userName + " has not log in");
+//            return new ResponseEntity<Map<String, OrderedItem>>(HttpStatus.UNAUTHORIZED);
+//        }
+//        userName = loggedUserName;
         System.out.println("Fetching all items in " + userName + "'s cart ");
         Cart cart = cartService.findCartByUser(userName);
         Map<String, OrderedItem> itemsInCart = null;
@@ -41,6 +53,28 @@ public class CartContoller {
             return new ResponseEntity<Map<String, OrderedItem>>(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<Map<String, OrderedItem>>(itemsInCart, HttpStatus.OK);
+    }
+
+    //show single item in cart
+    @RequestMapping(value = "/cart/{userName}/{productName}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<OrderedItem> getItems(@PathVariable("userName") String userName,@PathVariable("productName") String productName, HttpServletRequest request) {
+        HttpSession session = request.getSession();
+//Get the logged in user name
+//        String loggedUserName = (String)session.getAttribute("userName");
+//        if(loggedUserName == null || !loggedUserName.equals(userName)){
+//            logger.error(userName + " has not log in");
+//            return new ResponseEntity<Map<String, OrderedItem>>(HttpStatus.UNAUTHORIZED);
+//        }
+//        userName = loggedUserName;
+        System.out.println("Fetching single item" + productName + " in " + userName + "'s cart ");
+        Cart cart = cartService.findCartByUser(userName);
+        OrderedItem item = null;
+        if(cart != null) item = cartService.findItem(cart, productName);
+        if (item == null) {
+            System.out.println("No product found");
+            return new ResponseEntity<OrderedItem>(HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<OrderedItem>(item, HttpStatus.OK);
     }
 
     //add item to cart
@@ -62,7 +96,14 @@ public class CartContoller {
 //        OrderedItem item = new OrderedItem(product, quantity);
 
         HttpSession session = request.getSession();
-
+//Get the logged in user name
+//        String loggedUserName = (String)session.getAttribute("userName");
+//        if(loggedUserName == null || !loggedUserName.equals(userName)){
+////            throw new LoginException(userName + " has not log in", ResultCode.NOT_LOGIN_YET);
+//            logger.error(userName + " has not log in");
+//            return new ResponseEntity<OrderedItem>(HttpStatus.UNAUTHORIZED);
+//        }
+//        userName = loggedUserName;
 // Get the cart.
         Cart cart = (Cart) session.
                 getAttribute("ShoppingCart");
@@ -79,9 +120,13 @@ public class CartContoller {
         String productName = orderedItem.getProduct().getProductName();
         if (cartService.isItemExist(cart, productName)) {
             System.out.println("A item with name " + productName + " already exist");
-            return new ResponseEntity<OrderedItem>(HttpStatus.CONFLICT);
-        }
-        cartService.addItem(cart, orderedItem);
+            //return new ResponseEntity<OrderedItem>(HttpStatus.CONFLICT);
+            //if exist update quantity = old value + new value
+            int oldQuantity = cartService.findItem(cart, productName).getQuantity();
+            int newQuantity = orderedItem.getQuantity() + oldQuantity;
+            cartService.updateItem(cart, productName, newQuantity);
+        }else
+            cartService.addItem(cart, orderedItem);
         System.out.println(orderedItem);
 
 // Now display the cart and allow the user to check out or order more items.
@@ -93,8 +138,9 @@ public class CartContoller {
         List<String> expandedURI = new ArrayList<>();
         expandedURI.add(userName);
         expandedURI.add(orderedItem.getProduct().getProductName());
-        headers.setLocation(ucBuilder.path("/cart/{userName}/{product}").buildAndExpand(expandedURI).toUri());
-        return new ResponseEntity<OrderedItem>(orderedItem, headers, HttpStatus.CREATED);
+        //headers.setLocation(ucBuilder.path("/cart/{userName}/{productName}").buildAndExpand(expandedURI).toUri());
+//        return new ResponseEntity<OrderedItem>(orderedItem, headers, HttpStatus.CREATED);
+        return new ResponseEntity<OrderedItem>(orderedItem, HttpStatus.CREATED);
     }
 
     //update items in cart
@@ -103,6 +149,13 @@ public class CartContoller {
             throws IOException, ServletException
     {
         HttpSession session = request.getSession();
+//Get the logged in user name
+//        String loggedUserName = (String)session.getAttribute("userName");
+//        if(loggedUserName == null || !loggedUserName.equals(userName)){
+//            logger.error(userName + " has not log in");
+//            return new ResponseEntity<OrderedItem>(HttpStatus.UNAUTHORIZED);
+//        }
+//        userName = loggedUserName;
 
 // Get the cart.
         Cart cart = (Cart) session.
@@ -127,7 +180,8 @@ public class CartContoller {
         List<String> expandedURI = new ArrayList<>();
         expandedURI.add(userName);
         expandedURI.add(orderedItem.getProduct().getProductName());
-        headers.setLocation(ucBuilder.path("/cart/{userName}/{product}").buildAndExpand(expandedURI).toUri());
-        return new ResponseEntity<OrderedItem>(orderedItem, headers, HttpStatus.CREATED);
+//        headers.setLocation(ucBuilder.path("/cart/{userName}/{product}").buildAndExpand(expandedURI).toUri());
+//        return new ResponseEntity<OrderedItem>(orderedItem, headers, HttpStatus.CREATED);
+        return new ResponseEntity<OrderedItem>(orderedItem, HttpStatus.CREATED);
     }
 }

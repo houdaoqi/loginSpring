@@ -7,6 +7,12 @@
 --%>
 <%--<%@include file="include.jsp"%>--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+  <title>Log in page</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="script/js.cookie.js"></script>
+</head>
 <form name="myForm1" action="login" method="post" modelAttribute="user">
   <table>
     <tr>
@@ -48,6 +54,7 @@
       document.getElementById('nameRemind' + x).innerHTML = "Name must be filled out";
       //isNameInput = false;
     }else{
+      Cookies.set("userName", name);
       document.getElementById('nameRemind' + x).innerHTML = "";
       //isNameInput = true;
     }

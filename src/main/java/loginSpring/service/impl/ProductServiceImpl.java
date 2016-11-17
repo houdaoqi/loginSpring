@@ -21,6 +21,10 @@ public class ProductServiceImpl implements IProductService {
         this.productDao = productDao;
     }
 
+    @Override
+    public Product findProductByID(long id) {
+        return null;
+    }
 
     @Override
     public Product findProductByName(String name) {
