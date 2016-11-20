@@ -79,7 +79,7 @@ public class OrderDaoSqliteImpl implements IOrderDao {
             });
             selectOrderedItemsByOrderID(orderID, result);
         } catch (Throwable e) {
-            e.printStackTrace(System.err);
+//            e.printStackTrace(System.err);
 //            logger.error("query Order error ",e);
             System.out.println("The exception is: " + e.getMessage());
             result=null;

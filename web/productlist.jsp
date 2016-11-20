@@ -22,7 +22,8 @@
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="script/js.cookie.js"></script>
-    <script src="script/displayproducts.js"></script>
+    <script src="script/displayProducts.js"></script>
+    <script src="script/handleOrder.js"></script>
 </head>
 <body>
 Welcome to Daoqi's computer store!
@@ -37,6 +38,17 @@ Here is your cart:
         <thead><th>Product ID</th><th>Product Name</th><th>Price</th><th>Quantity</th><th>Operation</th></thead><tbody>
     </table>
 </div>
+Please input your mail address and credit card number to place order:
+<div id="orderSection">
+    <table id="orderTable">
+        <thead><th>Mail Address</th><th>Credit Card Number</th><th>Total Price</th><th>Operation</th></thead>
+        <tr><td><input id="address"/></td><td><input id="creditNumber"/></td><td id="totalPrice"></td><td><button id="placeOrder" onclick="place_order()">Place Order</button></td></tr>
+    </table>
+</div>
+<div></div>
+<div></div>
+<div></div>
+
 <%--<input type="hidden" id="hdnSession" data-value="@Request.RequestContext.HttpContext.Session["userName"]" />--%>
 
 <%--<script>--%>
