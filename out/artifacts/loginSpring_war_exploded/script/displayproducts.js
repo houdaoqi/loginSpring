@@ -12,7 +12,7 @@ $.ajax({
     var table = $("#dataTable");
     var obj = data;
     $.each(obj, function () {
-        table.append('<tr><td>' + this['productID'] + '</td><td id="name_' + this['productID'] + '">' + this['productName'] + '</td><td id="price_' + this['productID'] + '">' + this['price'] + '</td><td><input id="quantity_' + this['productID'] + '" value="1" /></td><td><button onclick="cart(' + this['productID'] + ')">add to cart</button></td></tr>');
+        table.append('<tr><td>' + this['productID'] + '</td><td id="name_' + this['productID'] + '">' + this['productName'] + '</td><td id="price_' + this['productID'] + '">' + this['price'] + '</td><td><input id="quantity_' + this['productID'] + '" value="1" /></td><td><button onclick="cart(' + this['productID'] + ')">Add to cart</button></td></tr>');
         // table += '<tr><td>' + this['productID'] + '</td><td>' + this['productName'] + '</td><td>' + this['price'] +'</td></tr>';
         // table += '<div class="products" id=' + this['productID'] + '>'
         //     + '<input type="button" value = "Add to Cart" onclick="cart(' + this['producID'] + ')' + '">'

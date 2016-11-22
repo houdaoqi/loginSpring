@@ -65,15 +65,18 @@ public class OrderDaoSqliteImpl implements IOrderDao {
         Object[] param = new Object[]{orderID};
         int[] types = {Types.INTEGER};
         Order result = null;
+        System.out.println("Order ID is: " + orderID);
         try {
             result = jdbcTemplate.queryForObject(sql, param, types, new RowMapper<Order>() {
                 @Override
                 public Order mapRow(ResultSet resultSet, int i) throws SQLException {
                     Order order = new Order();
-                    order.setOrderID(resultSet.getInt(1));
+//                    order.setOrderID(resultSet.getInt(1));
+                    order.setOrderID(resultSet.getLong(1));
                     order.setAddress(resultSet.getString(2));
                     order.setCreditNumber(resultSet.getString(3));
-                    order.setUserID(resultSet.getInt(4));
+//                    order.setUserID(resultSet.getInt(4));
+                    order.setUserID(resultSet.getLong(4));
                     return order;
                 }
             });
@@ -89,7 +92,7 @@ public class OrderDaoSqliteImpl implements IOrderDao {
     }
 
     void selectOrderedItemsByOrderID(long orderID, Order order) {
-        System.out.println("The selectOrderedItemsByOrderID function in ProductDaoSqliteImpl class is called");
+        System.out.println("The selectOrderedItemsByOrderID function in OrderDaoSqliteImpl class is called");
         String sql = "SELECT id, productID, productName, price, quantity FROM orderedItem WHERE orderID=?";
         Object[] param = new Object[]{orderID};
         int[] types = {Types.INTEGER};
@@ -98,10 +101,14 @@ public class OrderDaoSqliteImpl implements IOrderDao {
         List<Map<String, Object>> rows = jdbcTemplate.queryForList(sql, param, types);
         for (Map row : rows) {
             OrderedItem item = new OrderedItem();
-            item.setId((int)row.get("id"));
+//            item.setId((int)row.get("id"));
+            item.setId((long)row.get("id"));
             item.setQuantity((int)row.get("quantity"));
             Product product = new Product();
-            product.setProductID((int)row.get("productID"));
+//            product.setProductID((int)row.get("productID"));
+            Integer productIDI = (int)row.get("productID");
+            Long productIDL = productIDI.longValue();
+            product.setProductID(productIDL);
             product.setProductName((String)row.get("productName"));
             product.setPrice((double)row.get("price"));
             item.setProduct(product);

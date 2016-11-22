@@ -39,6 +39,7 @@ function place_order() {
         });
         console.log('ordered item array-----------------------------');
         console.log(orderedItemArray);
+
         var order = {
             "orderID" : orderID,
             "orderedItemList" : orderedItemArray,
@@ -47,7 +48,6 @@ function place_order() {
             "creditNumber" : credit,
             "userID" : userID
         };
-        var testOrderedItemList = {"orderedItemList" : orderedItemArray};
 
         $.post(
             "http://localhost:8081/order",
@@ -56,9 +56,24 @@ function place_order() {
             function () {
                 show_cart();
                 console.log("the order has been placed");
+                $("#order-dialog").html(JSON.stringify(order, null, 2));
+                $("#order-dialog").dialog("open");
+                // $.ajax({
+                //     url: 'http://localhost:8081/order/' + orderID ,
+                // }).then(function (data) {
+                //     console.log("the placed order info------------------");
+                //     console.log(data);
+                //     console.log("------------------");
+                //     // $("#order-dialog").html(data);
+                //     $("#order-dialog").text(data);
+                //     $("#order-dialog").dialog("open");
+                // });
             }
         );
     });
+
+
+
 
 }
 

@@ -20,34 +20,57 @@
             border: 1px solid #777;
         }
     </style>
+    <style>
+        #product-accordion{font-size: 14px;}
+    </style>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="script/js.cookie.js"></script>
     <script src="script/displayProducts.js"></script>
     <script src="script/handleOrder.js"></script>
+    <script>
+        $(function() {
+            $( "#product-accordion" ).accordion({
+                heightStyle: "content",
+                collapsible: true
+            });
+            $(":button").button();
+            $( "#order-dialog" ).dialog({
+                autoOpen: false
+            });
+        });
+//        $(function() {
+//            $( "#order-dialog" ).dialog({
+//                autoOpen: false
+//            });
+//        });
+    </script>
 </head>
 <body>
-Welcome to Daoqi's computer store!
+<h1>Welcome to Daoqi's computer store!</h1>
+<div id="product-accordion">
+    <h3>Product List</h3>
 <div id="datalist">
     <table id="dataTable">
         <thead><th>Product ID</th><th>Product Name</th><th>Price</th><th>Quantity</th><th>Operation</th></thead><tbody>
     </table>
 </div>
-Here is your cart:
+<h3>Cart</h3>
 <div id="cartItemList">
     <table id="cartItemTable">
         <thead><th>Product ID</th><th>Product Name</th><th>Price</th><th>Quantity</th><th>Operation</th></thead><tbody>
     </table>
 </div>
-Please input your mail address and credit card number to place order:
+<h3>Order</h3>
 <div id="orderSection">
     <table id="orderTable">
         <thead><th>Mail Address</th><th>Credit Card Number</th><th>Total Price</th><th>Operation</th></thead>
         <tr><td><input id="address"/></td><td><input id="creditNumber"/></td><td id="totalPrice"></td><td><button id="placeOrder" onclick="place_order()">Place Order</button></td></tr>
     </table>
+    <pre id="order-dialog" title="Here is your order details"></pre>
 </div>
-<div></div>
-<div></div>
-<div></div>
+</div>
 
 <%--<input type="hidden" id="hdnSession" data-value="@Request.RequestContext.HttpContext.Session["userName"]" />--%>
 
