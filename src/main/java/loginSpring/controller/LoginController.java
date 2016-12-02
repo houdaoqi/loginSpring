@@ -49,7 +49,8 @@ public class LoginController
                 System.out.println("User Login Successful");
                 request.setAttribute("loggedInUser", user.getUserName());
                 //model = new ModelAndView("welcome");
-                model = new ModelAndView("productlist");
+//                model = new ModelAndView("productlist");
+                model = new ModelAndView("productlistAGJS");
                 HttpSession session = request.getSession(true);
                 session.setAttribute("userName", user.getUserName());
                 System.out.println(session.getAttribute("userName"));
