@@ -10,10 +10,15 @@ import java.util.List;
 public class Order implements Serializable{
 
     private long orderID;
+
     private List<OrderedItem> orderedItemList;
+
     private double totalPrice;
+
     private String address;
+
     private String creditNumber;
+
     private long userID;
 
     public Order() {

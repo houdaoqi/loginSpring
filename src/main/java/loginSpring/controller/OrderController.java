@@ -18,11 +18,15 @@ import org.springframework.web.util.UriComponentsBuilder;
  */
 @RestController
 public class OrderController {
+
     @Autowired
     IOrderService orderService;
 
-    //Retrieve single order
-
+    /**
+     * Retrieve single order based on order Id
+     * @param orderID the oder Id to be searched
+     * @return response which includes the retrieved order
+     */
     @RequestMapping(value = "/order/{orderID}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Order> getProduct(@PathVariable("orderID") long orderID) {
         System.out.println("Fetching order with orderID " + orderID);
@@ -34,8 +38,12 @@ public class OrderController {
         return new ResponseEntity<Order>(order, HttpStatus.OK);
     }
 
-    //Place a order
-
+    /**
+     * save a order into database
+     * @param order the order to be placed
+     * @param ucBuilder build path for added order
+     * @return http response which includes the added order
+     */
     @RequestMapping(value = "/order", method = RequestMethod.POST)
     public ResponseEntity<Order> createProduct(@RequestBody Order order, UriComponentsBuilder ucBuilder) {
         System.out.println("Placing order " + order.getOrderID());

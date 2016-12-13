@@ -23,6 +23,7 @@ import java.util.Map;
  */
 @Repository
 public class OrderDaoSqliteImpl implements IOrderDao {
+
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
@@ -30,6 +31,10 @@ public class OrderDaoSqliteImpl implements IOrderDao {
         this.jdbcTemplate = jdbcTemplate;
     }
 
+    /**
+     * insert the order into database
+     * @param order the order to be inserted
+     */
     @Override
     public void insertOrder(Order order) {
         System.out.println("The insertOrder function in OrderDaoSqliteImpl class is called");
@@ -52,11 +57,21 @@ public class OrderDaoSqliteImpl implements IOrderDao {
         }
     }
 
+    /**
+     * retrieve all orders based on user Id
+     * @param userID the use Id to be searched
+     * @return a list of orders
+     */
     @Override
     public List<Order> selectOrderByUserID(long userID) {
         return null;
     }
 
+    /**
+     * select order based on the order Id
+     * @param orderID the order Id to be searched
+     * @return the selected order
+     */
     @Override
     public Order selectOrderByOrderID(long orderID) {
         System.out.println("The selectOrderByOrderID function in OrderDaoSqliteImpl class is called");
@@ -91,6 +106,11 @@ public class OrderDaoSqliteImpl implements IOrderDao {
         return result;
     }
 
+    /**
+     * retrieve all ordered items based on the order Id and put the items into the order
+     * @param orderID the order Id to be searched
+     * @param order the order where we put retrieved items
+     */
     void selectOrderedItemsByOrderID(long orderID, Order order) {
         System.out.println("The selectOrderedItemsByOrderID function in OrderDaoSqliteImpl class is called");
         String sql = "SELECT id, productID, productName, price, quantity FROM orderedItem WHERE orderID=?";
@@ -106,9 +126,7 @@ public class OrderDaoSqliteImpl implements IOrderDao {
             item.setQuantity((int)row.get("quantity"));
             Product product = new Product();
 //            product.setProductID((int)row.get("productID"));
-            Integer productIDI = (int)row.get("productID");
-            Long productIDL = productIDI.longValue();
-            product.setProductID(productIDL);
+            product.setProductID(Long.parseLong(row.get("productId").toString()));
             product.setProductName((String)row.get("productName"));
             product.setPrice((double)row.get("price"));
             item.setProduct(product);
@@ -120,6 +138,10 @@ public class OrderDaoSqliteImpl implements IOrderDao {
 //        order.setOrderedItemList(items);
     }
 
+    /**
+     * delete order based on order Idfrom database
+     * @param orderID the order Id to be searched
+     */
     @Override
     public void deleteOrder(long orderID) {
 

@@ -13,32 +13,57 @@ import java.util.List;
  */
 @Service
 public class OrderServiceImpl implements IOrderService {
+
     @Resource(name="orderDaoSqliteImpl")
     private IOrderDao orderDao;
-    @Override
-    public void placeOrder(Order order) {
-        orderDao.insertOrder(order);
-    }
 
     public void setOrderDao(IOrderDao orderDao) {
         this.orderDao = orderDao;
     }
 
+    /**
+     * save the order into database
+     * @param order the order to be inserted
+     */
+    @Override
+    public void placeOrder(Order order) {
+        orderDao.insertOrder(order);
+    }
+
+    /**
+     * retrieve the orders based on user ID
+     * @param userID the user Id to be searched
+     * @return retrieved list of orders
+     */
     @Override
     public List<Order> findOrderByUserID(long userID) {
         return orderDao.selectOrderByUserID(userID);
     }
 
+    /**
+     * retrieve the order based on the oder Id
+     * @param orderID the order Id to be searched
+     * @return the retrieved order
+     */
     @Override
     public Order findOrderByOderID(long orderID) {
         return orderDao.selectOrderByOrderID(orderID);
     }
 
+    /**
+     * delete the order based on order Id
+     * @param orderID the order Id
+     */
     @Override
     public void revokeOrder(long orderID) {
         orderDao.deleteOrder(orderID);
     }
 
+    /**
+     * check if the order exist in database based on the order Id
+     * @param orderID the order Id to be searched
+     * @return true means the oder exists
+     */
     @Override
     public boolean isOrderExist(long orderID) {
         return findOrderByOderID(orderID) != null;

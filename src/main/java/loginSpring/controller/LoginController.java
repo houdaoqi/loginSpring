@@ -19,21 +19,19 @@ import org.springframework.web.servlet.ModelAndView;
  * Created by lenovo on 11/3/2016.
  */
 @Controller
-public class LoginController
-{
+public class LoginController {
+
     @Autowired
     private IUserService userService;
 
-//    @RequestMapping(value="/login",method= RequestMethod.GET)
-//    public ModelAndView displayLogin(HttpServletRequest request, HttpServletResponse response)
-//    {
-//        ModelAndView model = new ModelAndView("login");
-//        User user = new User();
-//        model.addObject("user", user);
-//        return model;
-//    }
+    /**
+     * user log in
+     * @param request the received http request, will save the succfully logged in user name in session
+     * @param user the user to be verified
+     * @return go to product list view if logged in successfully, otherwise stay in index view
+     */
     @RequestMapping(value="/login",method=RequestMethod.POST)
-    public ModelAndView executeLogin(HttpServletRequest request, HttpServletResponse response, @ModelAttribute("user")User user)
+    public ModelAndView executeLogin(HttpServletRequest request, @ModelAttribute("user")User user)
     {
         ModelAndView model= null;
         try

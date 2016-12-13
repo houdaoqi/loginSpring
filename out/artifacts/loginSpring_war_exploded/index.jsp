@@ -28,24 +28,9 @@
   </table>
   <input type="submit" value="Login">
 </form>
-<%--<form name="myForm2" action="signup" method="post">--%>
-  <%--<table>--%>
-    <%--<tr>--%>
-      <%--<td><font face="verdana" size="2px">Name:</font></td>--%>
-      <%--<td><input type="text" name="userName" onblur = "validateName(2)"></td>--%>
-      <%--<td id = "nameRemind2"></td>--%>
-    <%--</tr>--%>
-    <%--<tr>--%>
-      <%--<td><font face="verdana" size="2px">Password:</font></td>--%>
-      <%--<td><input type="password" name="userPassword" onblur = "validatePassword(2)"></td>--%>
-      <%--<td id = "passwordRemind2"></td>--%>
-    <%--</tr>--%>
-  <%--</table>--%>
-  <%--<input type="submit" value="Sign Up">--%>
-<%--</form>--%>
 <script>
-  var isNameInput = false;
-  var isPasswordInput = false;
+//  var isNameInput = false;
+//  var isPasswordInput = false;
 
   function validateName(x) {
     var name = document.forms["myForm" + x]["userName"].value;
@@ -71,13 +56,4 @@
       //isPasswordInput = true;
     }
   }
-  /*
-   function validateForm() {
-   //return isNameInput && isPasswordInput;
-   if(!isNameInput || !isPasswordInput){
-   alert("All fields must be filled out");
-   return false;
-   }
-   }
-   */
 </script>

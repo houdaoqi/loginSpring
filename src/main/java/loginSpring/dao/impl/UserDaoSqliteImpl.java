@@ -36,6 +36,10 @@ public class UserDaoSqliteImpl implements IUserDao{
         return 0;
     }
 
+    /**
+     * insert the user into database
+     * @param user the user to be inserted
+     */
     @Override
     public void insert(User user) {
         String sql = "INSERT INTO user " +
@@ -45,6 +49,11 @@ public class UserDaoSqliteImpl implements IUserDao{
         });
     }
 
+    /**
+     * retrieve the user based on user name
+     * @param toFindUser the user to be searched
+     * @return the retrieved user
+     */
     @Override
     public User select(User toFindUser){
         System.out.println("The select function in UserDaoSqliteImpl class is called");

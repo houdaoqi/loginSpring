@@ -26,7 +26,8 @@
     <mvc:default-servlet-handler />
     <mvc:interceptors>
         <mvc:interceptor>
-            <mvc:mapping path="/user/*"/>
+            <!--<mvc:mapping path="/user/*"/>-->
+            <mvc:mapping path="/login"/>
             <bean class="loginSpring.common.LoggingInterceptor" />
         </mvc:interceptor>
     </mvc:interceptors>

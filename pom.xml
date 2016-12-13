@@ -101,6 +101,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>loginSpring</finalName>
-    </build>
+    <finalName>loginSpring</finalName>
+</build>
 </project>

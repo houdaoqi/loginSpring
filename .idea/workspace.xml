@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/loginSpring/controller/ProductController.java" line="54" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="304dba31-36ff-45c6-a19a-3327939f5b14" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/productlistAGJS.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/script/displayProductsAGJS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/script/shoppingService.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/script/displayProductsAGJS.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loginSpring.db" afterPath="$PROJECT_DIR$/loginSpring.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/controller/CartController.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/controller/CartController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/controller/LoginController.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/controller/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/controller/OrderController.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/controller/OrderController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/controller/ProductController.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/controller/ProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/controller/UserController.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/CartDaoSimpleImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/CartDaoSimpleImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/OrderDaoSqliteImpl$1.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/OrderDaoSqliteImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/OrderDaoSqliteImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/OrderDaoSqliteImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/ProductDaoSqliteImpl$1.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/ProductDaoSqliteImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/ProductDaoSqliteImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/ProductDaoSqliteImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/UserDaoSqliteImpl$1.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/UserDaoSqliteImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/UserDaoSqliteImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/dao/impl/UserDaoSqliteImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/po/Cart.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/po/Cart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/po/Order.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/po/Order.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/po/OrderedItem.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/po/OrderedItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/po/Product.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/po/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/po/User.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/po/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/service/impl/CartServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/service/impl/CartServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/service/impl/OrderServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/service/impl/OrderServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/service/impl/ProductServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/service/impl/ProductServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/loginSpring/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/controller/CartController.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/controller/CartController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/controller/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/controller/OrderController.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/controller/OrderController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/controller/ProductController.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/controller/ProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/CartDaoSimpleImpl.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/CartDaoSimpleImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/OrderDaoSqliteImpl$1.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/OrderDaoSqliteImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/OrderDaoSqliteImpl.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/OrderDaoSqliteImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/ProductDaoSqliteImpl$1.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/ProductDaoSqliteImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/ProductDaoSqliteImpl.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/ProductDaoSqliteImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/UserDaoSqliteImpl$1.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/UserDaoSqliteImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/UserDaoSqliteImpl.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/dao/impl/UserDaoSqliteImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/po/Cart.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/po/Cart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/po/Order.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/po/Order.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/po/OrderedItem.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/po/OrderedItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/po/Product.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/po/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/po/User.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/po/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/service/impl/CartServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/service/impl/CartServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/service/impl/OrderServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/service/impl/OrderServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/service/impl/ProductServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/service/impl/ProductServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/loginSpring/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/loginSpring/service/impl/UserServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/springMVC-servlet.xml" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/classes/springMVC-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/productlistAGJS.jsp" afterPath="$PROJECT_DIR$/out/artifacts/loginSpring_war_exploded/productlistAGJS.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-demo.log" afterPath="$PROJECT_DIR$/rest-demo.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/controller/CartController.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/controller/CartController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/controller/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/controller/OrderController.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/controller/OrderController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/controller/ProductController.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/controller/ProductController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/dao/IProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/dao/IProductDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/dao/IUserDao.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/dao/IUserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/CartDaoSimpleImpl.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/CartDaoSimpleImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/OrderDaoSqliteImpl.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/OrderDaoSqliteImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/ProductDaoSqliteImpl.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/ProductDaoSqliteImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/UserDaoSqliteImpl.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/UserDaoSqliteImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/po/Cart.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/po/Cart.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/po/Order.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/po/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/po/OrderedItem.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/po/OrderedItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/po/Product.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/po/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/po/User.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/po/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/service/IOrderService.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/service/IOrderService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/CartServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/CartServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/OrderServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/ProductServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/springMVC-servlet.xml" afterPath="$PROJECT_DIR$/src/main/resources/springMVC-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springMVC-servlet.xml" afterPath="$PROJECT_DIR$/target/classes/springMVC-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/productlistAGJS.jsp" afterPath="$PROJECT_DIR$/web/productlistAGJS.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/script/displayProductsAGJS.js" afterPath="$PROJECT_DIR$/web/script/displayProductsController.js" />
     </list>
     <ignored path="loginSpring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,31 +107,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <file leaf-file-name="productlistAGJS.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/productlistAGJS.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-896">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="150">
+              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/controller/LoginController.java">
+      <file leaf-file-name="Cart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/Cart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="100">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -60,11 +130,19 @@
       <file leaf-file-name="displayProducts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/script/displayProducts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1431">
-              <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="2275">
+              <caret line="94" column="71" selection-start-line="94" selection-start-column="71" selection-end-line="94" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="displayProductsController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/script/displayProductsController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="687">
+              <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,50 +150,8 @@
       <file leaf-file-name="productlist.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/productlist.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="70" column="60" selection-start-line="70" selection-start-column="60" selection-end-line="70" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productlistAGJS.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/productlistAGJS.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="displayProductsAGJS.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/script/displayProductsAGJS.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3829">
-              <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CartDaoSimpleImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/CartDaoSimpleImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="796">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CartController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/controller/CartController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="147" column="42" selection-start-line="147" selection-start-column="42" selection-end-line="147" selection-end-column="42" />
+            <state relative-caret-position="687">
+              <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -124,11 +160,49 @@
       <file leaf-file-name="handleOrder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/script/handleOrder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="14" />
-              <folding>
-                <element signature="n#!!doc;n#place_order#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="541">
+              <caret line="58" column="70" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderedItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/OrderedItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,57 +230,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/po/User.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/common/LoginResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/common/LoggingAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/UserDaoSqliteImpl.java" />
-        <option value="$PROJECT_DIR$/web/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/common/LoggingInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/ProductDaoSimpleImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/IProductDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/ProductDaoSqliteImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/IUserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/UserDaoSimpleImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/po/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/po/Cart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/CartDaoSimpleImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/ICartDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/CartServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/loginSpring/service/ICartService.java" />
         <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/IOrderDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/po/OrderedItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/service/IOrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/productList.jsp" />
         <option value="$PROJECT_DIR$/web/displayproducts.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/springMVC-servlet.xml" />
         <option value="$PROJECT_DIR$/web/script/editcart.js" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/loginSpring/common/AuthException.java" />
         <option value="$PROJECT_DIR$/src/main/java/loginSpring/common/ResultCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/loginSpring/common/LoginException.java" />
         <option value="$PROJECT_DIR$/src/main/java/loginSpring/service/IProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/loginSpring/controller/CartContoller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/controller/CartController.java" />
         <option value="$PROJECT_DIR$/web/script/displayproducts.js" />
         <option value="$PROJECT_DIR$/web/script/handleorder.js" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/po/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/OrderDaoSqliteImpl.java" />
         <option value="$PROJECT_DIR$/web/script/handleOrder.js" />
         <option value="$PROJECT_DIR$/web/script/displayProducts.js" />
         <option value="$PROJECT_DIR$/web/productlist.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/loginSpring/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/web/productlistAGJS.jsp" />
         <option value="$PROJECT_DIR$/web/script/displayProductsAGJS.js" />
+        <option value="$PROJECT_DIR$/web/script/getProducts.js" />
+        <option value="$PROJECT_DIR$/web/script/getProductsService.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/service/IOrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/IProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/springMVC-servlet.xml" />
+        <option value="$PROJECT_DIR$/web/css/dialog.css" />
+        <option value="$PROJECT_DIR$/web/script/displayProductsController.js" />
+        <option value="$PROJECT_DIR$/web/script/shoppingService.js" />
+        <option value="$PROJECT_DIR$/web/productlistAGJS.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/CartDaoSimpleImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/OrderDaoSqliteImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/ProductDaoSqliteImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/UserDaoSqliteImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/po/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/po/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/po/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/po/OrderedItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/po/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/CartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/loginSpring/service/impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -236,10 +310,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1592" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="916" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -363,9 +437,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,6 +485,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginSpring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginSpring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -475,70 +565,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="loginSpring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loginSpring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loginSpring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loginSpring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loginSpring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loginSpring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loginSpring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -666,38 +692,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loginSpring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loginSpring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loginSpring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -707,17 +705,10 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20689656" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ames_projects\logan\loginSpring\web\script" />
-      <recent name="D:\ames_projects\logan\loginSpring\src\main\resources" />
-      <recent name="D:\ames_projects\logan\loginSpring\web\WEB-INF" />
-      <recent name="D:\ames_projects\logan\loginSpring\src\main\java\loginSpring" />
-      <recent name="D:\ames_projects\logan\loginSpring\src\test" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -725,6 +716,13 @@
       <recent name="D:\ames_projects\logan\loginSpring\web\script" />
       <recent name="D:\ames_projects\logan\loginSpring\web" />
       <recent name="D:\ames_projects\logan\loginSpring\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ames_projects\logan\loginSpring\web\script" />
+      <recent name="D:\ames_projects\logan\loginSpring\src\main\resources" />
+      <recent name="D:\ames_projects\logan\loginSpring\web\WEB-INF" />
+      <recent name="D:\ames_projects\logan\loginSpring\src\main\java\loginSpring" />
+      <recent name="D:\ames_projects\logan\loginSpring\src\test" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.loginSpringTomcat">
@@ -1406,34 +1404,38 @@
       <workItem from="1478793860997" duration="27990000" />
       <workItem from="1479162382506" duration="51939000" />
       <workItem from="1479410228090" duration="37447000" />
-      <workItem from="1480381825274" duration="38529000" />
+      <workItem from="1480381825274" duration="61877000" />
+      <workItem from="1480823130990" duration="1981000" />
+      <workItem from="1480953666430" duration="37499000" />
+      <workItem from="1481213688168" duration="18925000" />
+      <workItem from="1481301106138" duration="11243000" />
+      <workItem from="1481564242934" duration="203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336167000" />
+    <option name="totallyTimeSpent" value="429366000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1456" height="916" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34495643" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23420075" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2878412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19060053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.234375" sideWeight="0.49338374" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24027778" sideWeight="0.50661623" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1444,6 +1446,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34495643" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1470,238 +1473,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/common/UserAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/js.cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/include.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="74" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/common/AuthException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/common/ResultCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/common/LoginException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/IProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/common/LoggingInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/editcart.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/IProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/impl/CartServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="e#582#583#0" expanded="false" />
-            <element signature="e#633#634#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/ICartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/IOrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/IOrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#1372#1373#0" expanded="false" />
-            <element signature="e#1401#1402#0" expanded="false" />
-            <element signature="e#1443#1444#0" expanded="false" />
-            <element signature="e#1479#1480#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="e#605#606#0" expanded="false" />
-            <element signature="e#632#633#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#874#875#0" expanded="false" />
-            <element signature="e#1041#1042#0" expanded="false" />
-            <element signature="e#1098#1099#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/ProductDaoSqliteImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <marker date="1478643890933" expanded="true" signature="1107:1182" ph="INSERT INTO product... " />
-            <marker date="1478643890933" expanded="true" signature="1590:1640" ph="select id, n... product" />
-            <marker date="1478643890933" expanded="true" signature="3144:3179" ph="SELECT * FRO... product" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/OrderedItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/OrderDaoSqliteImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2225">
-          <caret line="109" column="53" selection-start-line="109" selection-start-column="53" selection-end-line="109" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1479696668232" expanded="true" signature="1105:1220" ph="INSERT INTO order... " />
-            <marker date="1479696668232" expanded="true" signature="1656:1785" ph="INSERT INTO orderedItem... " />
-            <marker date="1479696668232" expanded="true" signature="2381:2477" ph="select order... order" />
-            <marker date="1479696668232" expanded="true" signature="3876:3959" ph="SELECT id, p... orderedItem" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/Main3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -1718,76 +1489,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/IUserService.java">
+    <entry file="file://$PROJECT_DIR$/web/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/UserDaoSimpleImpl.java">
+    <entry file="file://$PROJECT_DIR$/web/script/js.cookie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#343#344#0" expanded="false" />
-            <element signature="e#380#381#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        <state relative-caret-position="300">
+          <caret line="24" column="34" selection-start-line="21" selection-start-column="8" selection-end-line="31" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/UserDaoSqliteImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/IOrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
-          <folding>
-            <marker date="1478491696866" expanded="true" signature="997:1072" ph="INSERT INTO user... " />
-            <marker date="1478491696866" expanded="true" signature="1491:1541" ph="select id,na... user" />
-          </folding>
+        <state relative-caret-position="400">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/IProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="200">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/common/LoginResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="250">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#219#220#0" expanded="false" />
-            <element signature="e#251#252#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/common/LoggingAspect.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/common/UserAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="11" column="71" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="71" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springMVC-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/common/ResultCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/common/LoginException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1799,104 +1562,319 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1650">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1300">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="47" />
+        <state relative-caret-position="825">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="300">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/common/LoggingInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springMVC-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-896">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="1175">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/dialog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/IOrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/UserDaoSimpleImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#343#344#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/UserDaoSqliteImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding>
+            <marker date="1481306179818" expanded="true" signature="1093:1168" ph="INSERT INTO user... " />
+            <marker date="1481306179818" expanded="true" signature="1730:1780" ph="select id,na... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/ICartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/common/LoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/OrderDaoSqliteImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="142" column="49" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
+          <folding>
+            <marker date="1481306179808" expanded="true" signature="1205:1320" ph="INSERT INTO order... " />
+            <marker date="1481306179808" expanded="true" signature="1756:1885" ph="INSERT INTO orderedItem... " />
+            <marker date="1481306179808" expanded="true" signature="2762:2858" ph="select order... order" />
+            <marker date="1481306179808" expanded="true" signature="4471:4554" ph="SELECT id, p... orderedItem" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/ProductDaoSqliteImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+          <folding>
+            <marker date="1481306179707" expanded="true" signature="1212:1287" ph="INSERT INTO product... " />
+            <marker date="1481306179707" expanded="true" signature="1847:1897" ph="select id, n... product" />
+            <marker date="1481306179707" expanded="true" signature="3494:3529" ph="SELECT * FRO... product" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/impl/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="100" column="41" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="90" column="31" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+        <state relative-caret-position="275">
+          <caret line="30" column="94" selection-start-line="30" selection-start-column="94" selection-end-line="30" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/CartDaoSimpleImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="164">
+          <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="74" column="61" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/script/shoppingService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/controller/CartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="147" column="42" selection-start-line="147" selection-start-column="42" selection-end-line="147" selection-end-column="42" />
+        <state relative-caret-position="275">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/productlist.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/ICartDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="70" column="60" selection-start-line="70" selection-start-column="60" selection-end-line="70" selection-end-column="60" />
+        <state relative-caret-position="175">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/dao/impl/CartDaoSimpleImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/OrderedItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/loginSpring/po/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/script/displayProducts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="2275">
+          <caret line="94" column="71" selection-start-line="94" selection-start-column="71" selection-end-line="94" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/script/handleOrder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc;n#place_order#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="541">
+          <caret line="58" column="70" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/displayProductsAGJS.js">
+    <entry file="file://$PROJECT_DIR$/web/script/displayProductsController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3829">
-          <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="687">
+          <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/productlist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/productlistAGJS.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="150">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
           <folding />
         </state>
       </provider>

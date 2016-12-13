@@ -33,7 +33,12 @@ public class CartController {
 
     private final Logger logger = LoggerFactory.getLogger(CartController.class);
 
-    //show items in cart
+    /**
+     * show all items in some user's cart
+     * @param userName the user who owns the cart
+     * @param request the received http request
+     * @return http response which includes the retrieved items in a map
+     */
     @RequestMapping(value = "/cart/{userName}/all", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Map<String, OrderedItem>> getItems(@PathVariable("userName") String userName, HttpServletRequest request) {
         HttpSession session = request.getSession();
@@ -55,7 +60,13 @@ public class CartController {
         return new ResponseEntity<Map<String, OrderedItem>>(itemsInCart, HttpStatus.OK);
     }
 
-    //show single item in cart
+    /**
+     * retrieve single item based on product name in some user's cart
+     * @param userName the user name of the user who owns the cart
+     * @param productName the product name to be searched
+     * @param request the received http request
+     * @return http response which includes the retrieved ordered item
+     */
     @RequestMapping(value = "/cart/{userName}/{productName}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<OrderedItem> getItems(@PathVariable("userName") String userName,@PathVariable("productName") String productName, HttpServletRequest request) {
         HttpSession session = request.getSession();
@@ -77,24 +88,20 @@ public class CartController {
         return new ResponseEntity<OrderedItem>(item, HttpStatus.OK);
     }
 
+    /**
+     * add the ordered item to some user's cart
+     * @param userName the user name of the user who owns the cart
+     * @param request the received http request
+     * @param orderedItem the item to be added
+     * @return http response which includes the added ordered item
+     * @throws IOException
+     * @throws ServletException
+     */
     //add item to cart
     @RequestMapping(value="/cart/{userName}",method= RequestMethod.POST)
-    public ResponseEntity<OrderedItem> addToCart(@PathVariable("userName") String userName, HttpServletRequest request, HttpServletResponse response, @RequestBody OrderedItem orderedItem, UriComponentsBuilder ucBuilder)
+    public ResponseEntity<OrderedItem> addToCart(@PathVariable("userName") String userName, HttpServletRequest request, @RequestBody OrderedItem orderedItem)
             throws IOException, ServletException
     {
-
-// First get the item values from the request.
-//        long productID = Long.parseLong(request.getParameter("productID"));
-//        String productName = request.getParameter("productName");
-//        int quantity = Integer.parseInt(
-//                request.getParameter("quantity"));
-//        double price = Double.parseDouble(
-//                request.getParameter("price"));
-
-// Now create an item to add to the cart.
-//        Product product = new Product(productID, productName, price);
-//        OrderedItem item = new OrderedItem(product, quantity);
-
         HttpSession session = request.getSession();
 //Get the logged in user name
 //        String loggedUserName = (String)session.getAttribute("userName");
@@ -143,9 +150,18 @@ public class CartController {
         return new ResponseEntity<OrderedItem>(orderedItem, HttpStatus.CREATED);
     }
 
+    /**
+     * update the ordered item in some user's cart
+     * @param userName the user name of the user who owns the cart
+     * @param request the received http request
+     * @param orderedItem the item which includes new quantity
+     * @return http response which includes the updated ordered item
+     * @throws IOException
+     * @throws ServletException
+     */
     //update items in cart
     @RequestMapping(value="/cart/{userName}",method= RequestMethod.PUT)
-    public ResponseEntity<OrderedItem> updateCart(@PathVariable("userName") String userName, HttpServletRequest request, HttpServletResponse response, @RequestBody OrderedItem orderedItem, UriComponentsBuilder ucBuilder)
+    public ResponseEntity<OrderedItem> updateCart(@PathVariable("userName") String userName, HttpServletRequest request, @RequestBody OrderedItem orderedItem)
             throws IOException, ServletException
     {
         HttpSession session = request.getSession();

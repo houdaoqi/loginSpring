@@ -20,6 +20,11 @@ public class CartDaoSimpleImpl implements ICartDao{
         this.map = new HashMap<>();
     }
 
+    /**
+     * create the cart for the user if the cart not existed, ortherwise update the cart
+     * @param userName the user who owns the cart
+     * @param cart the new cart to be saved
+     */
     @Override
     public void saveCart(String userName, Cart cart){
         if(updateCart(userName, cart) == 0){
@@ -27,6 +32,12 @@ public class CartDaoSimpleImpl implements ICartDao{
         }
     }
 
+    /**
+     * update the existing cart for the user
+     * @param userName the user who owns the cart
+     * @param cart the new cart value
+     * @return
+     */
     @Override
     public int updateCart(String userName, Cart cart) {
         if(map.containsKey(userName)){
@@ -35,6 +46,11 @@ public class CartDaoSimpleImpl implements ICartDao{
         }else return 0;
     }
 
+    /**
+     * create the cart for the user if user does not have a cart yet
+     * @param userName the user who owns the cart
+     * @param cart the cart to be created
+     */
     @Override
     public void insertCart(String userName, Cart cart) {
         if(!map.containsKey(userName)) {
@@ -43,16 +59,32 @@ public class CartDaoSimpleImpl implements ICartDao{
         }
     }
 
+    /**
+     * retrieve the cart based on the user name
+     * @param userName user name to be searched
+     * @return the cart
+     */
     @Override
     public Cart selectCart(String userName) {
         return map.get(userName);
     }
 
+    /**
+     * retrieve the ordered item based on cart and product name
+     * @param cart the cart to be searched
+     * @param productName the product name to be searched
+     * @return the ordered item
+     */
     @Override
     public OrderedItem findItem(Cart cart, String productName) {
         return cart.getItems().get(productName);
     }
 
+    /**
+     * add the ordered item into the cart
+     * @param cart the cart
+     * @param orderedItem the ordered item to be added
+     */
     @Override
     public void addItem(Cart cart, OrderedItem orderedItem) {
         if(orderedItem.getQuantity()<=0) return;
@@ -61,11 +93,22 @@ public class CartDaoSimpleImpl implements ICartDao{
         }
     }
 
+    /**
+     * delete the ordered item from the cart
+     * @param cart the cart
+     * @param productName the product name of the ordered item to be deleted
+     */
     @Override
     public void deleteItem(Cart cart, String productName) {
         cart.getItems().remove(productName);
     }
 
+    /**
+     * update the quantity of the ordered item in the cart
+     * @param cart the cart
+     * @param productName the product name of the ordered item
+     * @param newQuantity the new quantity
+     */
     @Override
     public void updateItem(Cart cart, String productName, int newQuantity) {
         if(cart.getItems().containsKey(productName)){
@@ -76,6 +119,12 @@ public class CartDaoSimpleImpl implements ICartDao{
         }
     }
 
+    /**
+     * check if the cart contains some product
+     * @param cart the cart
+     * @param productName the product name to be searched
+     * @return true means exist, false means not exist
+     */
     @Override
     public boolean isItemExist(Cart cart, String productName) {
         return cart.getItems().containsKey(productName);

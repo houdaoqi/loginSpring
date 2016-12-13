@@ -20,11 +20,15 @@ import java.util.List;
  */
 @RestController
 public class ProductController {
+
     @Autowired
     IProductService productService;
 
-    //Retrieve single product by product name
-
+    /**
+     * Retrieve single product by product name
+     * @param name the product name to be searched
+     * @return the response which includes the retrieved product
+     */
     @RequestMapping(value = "/product/{name}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Product> getProduct(@PathVariable("name") String name) {
         System.out.println("Fetching product with name " + name);
@@ -49,8 +53,10 @@ public class ProductController {
 //        return new ResponseEntity<Product>(product, HttpStatus.OK);
 //    }
 
-    //Retrieve all products
-
+    /**
+     * Retrieve all products
+     * @return the response which includes all products
+     */
     @RequestMapping(value = "/product/all", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Product>> getProducts() {
         System.out.println("Fetching all products ");
@@ -62,10 +68,12 @@ public class ProductController {
         return new ResponseEntity<List<Product>>(productList, HttpStatus.OK);
     }
 
-
-
-    //Create a product
-
+    /**
+     * Create a product
+     * @param product the product to be inserted
+     * @param ucBuilder build the parth for the added product
+     * @return http response which includes https status code
+     */
     @RequestMapping(value = "/product", method = RequestMethod.POST)
     public ResponseEntity<Void> createProduct(@RequestBody Product product, UriComponentsBuilder ucBuilder) {
         System.out.println("Creating product " + product.getProductID() + " " + product.getProductName() + " " + product.getPrice());

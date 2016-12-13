@@ -8,7 +8,9 @@ import java.io.Serializable;
 public class User implements Serializable{
 
     private long id;
+
     private String userName;
+
     private String userPassword;
 
     public User(){

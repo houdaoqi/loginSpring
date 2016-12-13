@@ -38,6 +38,10 @@ public class ProductDaoSqliteImpl implements IProductDao {
         return 0;
     }
 
+    /**
+     * insert the product into database
+     * @param product the product to be inserted
+     */
     @Override
     public void insert(Product product) {
         String sql = "INSERT INTO product " +
@@ -47,6 +51,11 @@ public class ProductDaoSqliteImpl implements IProductDao {
         });
     }
 
+    /**
+     * retrieve the product based on product name
+     * @param product the product to be searched
+     * @return the retrieved product
+     */
     @Override
     public Product select(Product product) {
         System.out.println("The select function in ProductDaoSqliteImpl class is called");
@@ -80,6 +89,10 @@ public class ProductDaoSqliteImpl implements IProductDao {
         return new Product(result.getProductID(), result.getProductName(), result.getPrice());
     }
 
+    /**
+     * retrieve all products from database
+     * @return a list of products
+     */
     @Override
     public List<Product> selectAll() {
         System.out.println("The selectAll function in ProductDaoSqliteImpl class is called");
@@ -88,7 +101,8 @@ public class ProductDaoSqliteImpl implements IProductDao {
         List<Map<String, Object>> rows = jdbcTemplate.queryForList(sql);
         for (Map row : rows) {
             Product product = new Product();
-            product.setProductID((int)row.get("id"));
+            //product.setProductID((int)row.get("id"));
+            product.setProductID(Long.parseLong(row.get("id").toString()));
             product.setProductName((String)row.get("name"));
             product.setPrice((double)row.get("price"));
             products.add(product);

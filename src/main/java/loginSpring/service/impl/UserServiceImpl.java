@@ -19,15 +19,17 @@ public class UserServiceImpl implements IUserService{
     //@Autowired
     @Resource(name="userDaoSqliteImpl")
     private IUserDao userDao;
-/*
-    public final IUserDao getUserDao() {
-        return userDao;
-    }
-*/
+
     public final void setUserDao(IUserDao userDao) {
         this.userDao = userDao;
     }
 
+    /**
+     * retrieve the user based on the user
+     * @param toFindUser the to be find user
+     * @return retrieved user
+     * @throws LoginException
+     */
     public User findUser(User toFindUser) throws LoginException{
 //        try{
             User user=userDao.select(toFindUser);
@@ -37,6 +39,11 @@ public class UserServiceImpl implements IUserService{
         return user;
     }
 
+    /**
+     * retrieve the user based on the user name
+     * @param name the user name
+     * @return retrieved user
+     */
     @Override
     public User findUserByName(String name) {
         User user = new User();
@@ -44,19 +51,39 @@ public class UserServiceImpl implements IUserService{
         return findUser(user);
     }
 
+    /**
+     * check if the user exist based on user name
+     * @param name the user name to be searched
+     * @return true means exists
+     */
     @Override
     public boolean isUserExist(String name) {
         User user = findUserByName(name);
         return user != null;
     }
+
+    /**
+     * save the user
+     * @param user the user
+     */
     public void saveUser(User user){
         userDao.save(user);
     }
 
+    /**
+     * insert the user
+     * @param user the user
+     */
     public void insertUser(User user){
         userDao.insert(user);
     }
 
+    /**
+     * verify is the user name and password match
+     * @param name the user name
+     * @param password the password
+     * @return login response which includes the result code
+     */
     public LoginResponse verifyUser(String name, String password){
         User toFindUser = new User(name, password);
         //User user = null;

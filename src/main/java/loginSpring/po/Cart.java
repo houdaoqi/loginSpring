@@ -11,19 +11,15 @@ import java.util.Map;
  */
 public class Cart implements Serializable {
 
+    /**
+     * the user name of the user who owns the cart
+     */
     private String userName;
-    //the list of item ID
-//    private List<Long> itemList;
-    //the key is the item name; the value is quantity
+
+    /**
+     * the key is the product name; the value is the ordered item
+     */
     private Map<String, OrderedItem> items;
-
-//    public List<Long> getItemList() {
-//        return itemList;
-//    }
-
-//    public void setItemList(List<Long> itemList) {
-//        this.itemList = itemList;
-//    }
 
     public Cart(String userName) {
         this.userName = userName;

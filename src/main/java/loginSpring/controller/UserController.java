@@ -20,8 +20,11 @@ public class UserController {
     @Autowired
     IUserService userService;
 
-    //Retrieve Single User
-
+    /**
+     * Retrieve Single User based on the user name
+     * @param name the user name to be searched
+     * @return http response which includes the retrieved user
+     */
     @RequestMapping(value = "/user/{name}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<User> getUser(@PathVariable("name") String name) {
         System.out.println("Fetching User with name " + name);
@@ -33,10 +36,12 @@ public class UserController {
         return new ResponseEntity<User>(user, HttpStatus.OK);
     }
 
-
-
-    //Create a User
-
+    /**
+     * Create a User
+     * @param user the user to be inserted
+     * @param ucBuilder build the path for the added user
+     * @return http response which includes the added user
+     */
     @RequestMapping(value = "/user", method = RequestMethod.POST)
     public ResponseEntity<Void> createUser(@RequestBody User user,    UriComponentsBuilder ucBuilder) {
         System.out.println("Creating User " + user.getUserName());
